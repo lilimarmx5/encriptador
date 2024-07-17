@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es_mx">
+   
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA_Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+    <title> Encriptador</title>
+
+</head>
+<body>
+    <header class="header">
+        <div class="header_titulo">
+        <h1> <img src="/assets/a.png" alt="Letra a de marca Alura"></h1>
+    </header>
+    <main class="cuerpo">
+        <section class = "cuerpo__ingreso">
+            <textarea class= "cuerpo__ingreso__textarea" id="inputText" 
+                placeholder="Ingrese su texto aquí"></textarea>
+                <p> Solo letras minúsculas y sin acentos.</p>
+            <div class="cuerpo__ingreso__buttons">
+                <button id="encrypt" class="cuerpo__ingreso__buttons__link">Encriptar</button>
+                <button id="decrypt" class="cuerpo__ingreso__buttons__link">Desencriptar</button>
+            </div>
+        </section>
+        <section class="cuerpo__resultado">
+            <textarea readonly  class= "cuerpo__resultado__textarea" id="resultText"  
+                placeholder=  "Ningún mensaje fue encontrado. Ingrese el texto que desee encriptar "></textarea>
+
+                <div class="cuerpo__resultado__buttons">
+                <button id="copy" class="cuerpo__ingreso__buttons__link">Copiar</button>
+            </div>
+            
+        </section>
+</main>
+    <footer class="footer">
+        <p> Desarrollado por Liliana Martínez     2024</p>
+    </footer>
+</body>
+</html>
